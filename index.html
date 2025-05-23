@@ -1,14 +1,164 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
+
 <head>
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Clube de Poker com API</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
-    <script src='script.js'></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A7 Sports Club - Clube de Poker</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
 </head>
+
 <body>
-    
+
+    <header>
+        <a href="#" class="brand" data-aos="zoom-in" data-aos-duration="1000">A7 Sports Club</a>
+        <div class="menu-btn"></div>
+        <div class="navigation">
+            <a href="#main" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">Home</a>
+            <a href="#about" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">Sobre</a>
+            <a href="#contact" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">Contato</a>
+            <a href="#cadastro" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">Cadastro</a>
+        </div>
+    </header>
+
+    <section class="main" id="main">
+        <div class="content">
+            <h2 data-aos="fade-right" data-aos-duration="1000" data-aos-delay="800">
+                Bem-vindo ao<br><span>Clube de Poker</span>
+            </h2>
+            <div class="animated-text" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="900">
+                <h3>Torneios Semanais</h3>
+                <h3>Cash Games Diários</h3>
+                <h3>Ambiente Profissional</h3>
+            </div>
+            <a href="#contact" class="btn" data-aos="zoom-out" data-aos-duration="1000" data-aos-delay="1000">
+                Cadastre-se
+            </a>
+            <div class="media-icons">
+                <a href="#" data-aos="fade-in" data-aos-duration="1000" data-aos-delay="1300">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="#" data-aos="fade-in" data-aos-duration="1000" data-aos-delay="1400">
+                    <i class="fab fa-whatsapp"></i>
+                </a>
+                <a href="mailto:contato@a7sportsclub.com" data-aos="fade-in" data-aos-duration="1000"
+                    data-aos-delay="1500">
+                    <i class="fas fa-envelope"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="title reveal">
+            <h2 class="section-title" data-aos="fade-up" data-aos-duration="1000">Sobre o Clube</h2>
+        </div>
+        <div class="content">
+            <div class="column col-left reveal">
+                <div class="img-card" data-aos="fade-right" data-aos-duration="2000" data-aos-delay="200">
+                    <img src="img/clubedePOKER.jpg" alt="Clube de Poker">
+                </div>
+            </div>
+            <div class="column col-right reveal">
+                <h2 class="content-title" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200">O Jogo
+                    Começa Aqui</h2>
+                <p class="paragraph-text" data-aos="flip-up" data-aos-duration="1000" data-aos-delay="400">
+                    O Clube de Poker é o destino ideal para jogadores de poker em busca de emoção, estratégia e um
+                    ambiente acolhedor. Com estrutura profissional, organizamos torneios e mesas de cash game com total
+                    transparência e conforto. Seja você iniciante ou profissional, temos o espaço certo para suas
+                    jogadas.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="title reveal">
+            <h2 class="section-title">Contato</h2>
+        </div>
+        <div class="content">
+            <div class="row">
+                <div class="card reveal">
+                    <div class="contact-icon"><i class="fas fa-map-marker-alt"></i></div>
+                    <div class="info">
+                        <h3>Endereço</h3>
+                        <span>Londrina - Pr</span>
+                    </div>
+                </div>
+                <div class="card reveal">
+                    <div class="contact-icon"><i class="fas fa-phone"></i></div>
+                    <div class="info">
+                        <h3>Telefone</h3>
+                        <span>(43) 99101-2110</span>
+                    </div>
+                </div>
+                <div class="card reveal">
+                    <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+                    <div class="info">
+                        <h3>Email</h3>
+                        <span>clubepoker@gmail.com</span>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="contact-form reveal">
+                    <h3>Cadastre-se</h3>
+                    <div class="form-grid">
+                        <div class="input-box"><input type="text" placeholder="Nome"></div>
+                        <div class="input-box"><input type="email" placeholder="Email"></div>
+                        <div class="input-box"><input type="text" placeholder="CPF"></div>
+                        <div class="input-box"><input type="text" placeholder="CEP"></div>
+                        <div class="input-box"><input type="text" placeholder="Bairro"></div>
+                        <div class="input-box"><input type="text" placeholder="Rua"></div>
+                        <div class="input-box"><input type="text" placeholder="Cidade"></div>
+                        <div class="input-box"><input type="text" placeholder="Estado"></div>
+                        <div class="input-box"><input type="text" placeholder="Complemento (opcional)"></div>
+                        <div class="input-box">
+                            <textarea placeholder="Mensagem ou observações adicionais"></textarea>
+                        </div>
+                        <div class="input-box">
+                            <input type="submit" class="send-btn" value="Enviar">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <footer class="footer">
+        <span class="footer-title">Clube Poker</span>
+        <p>&copy; 2025. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({ offset: 0 });
+
+        const menuBtn = document.querySelector(".menu-btn");
+        const navigation = document.querySelector(".navigation");
+        const navigationItems = document.querySelectorAll(".navigation a");
+
+        menuBtn.addEventListener("click", () => {
+            menuBtn.classList.toggle("active");
+            navigation.classList.toggle("active");
+        });
+
+        window.addEventListener("scroll", function () {
+            const header = document.querySelector("header");
+            header.classList.toggle("sticky", window.scrollY > 0);
+        });
+
+        navigationItems.forEach((item) => {
+            item.addEventListener("click", () => {
+                menuBtn.classList.remove("active");
+                navigation.classList.remove("active");
+            });
+        });
+    </script>
 </body>
+
 </html>
